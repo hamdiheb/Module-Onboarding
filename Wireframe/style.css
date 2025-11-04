@@ -26,6 +26,14 @@ body {
 .article-button {
   padding: 10px;
   background: white;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.article-button:hover {
+  background-color: black;
+  color: white;
 }
 
 .second-part-article {
@@ -39,4 +47,20 @@ footer {
   margin: 0;
   border-top: 1px solid black;
   margin-top: 50px;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.footer-list-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-list-link:hover {
+  border-bottom:1px solid black ;
 }
