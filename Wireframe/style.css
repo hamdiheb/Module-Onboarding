@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.article-img {
+  width: 600px;
+}
+
+.main-article {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  width: 600px;
+  text-align: start;
+  justify-self: center;
+}
+
+.article-setting-description {
+  margin-left: 10px;
+}
+
+.article-button {
+  padding: 10px;
+  background: white;
+}
