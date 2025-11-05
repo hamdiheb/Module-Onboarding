@@ -6,7 +6,7 @@ body {
 }
 
 .article-img {
-  width: 600px;
+  width: 100%;
 }
 
 .main-article {
@@ -15,7 +15,7 @@ body {
   width: 90%;
   text-align: start;
   justify-self: center;
-  background-color: red;
+
 }
 
 .article-setting-description {
@@ -45,7 +45,7 @@ body {
 
 .second-element-article {
   width: 50%;
-  height: 320px;
+  height: 480px;
   border: 1px solid black;
   text-align: start;
 }
@@ -54,9 +54,6 @@ body {
   margin-right: 20px;
 }
 
-.article-img-second {
-  width: 50%;
-}
 footer {
   display: block;
   padding: 0;
