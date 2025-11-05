@@ -10,13 +10,12 @@ body {
 }
 
 .main-article {
-  margin-bottom: 20px;
   padding-bottom: 20px;
   border: 1px solid black;
-  width: 600px;
+  width: 90%;
   text-align: start;
   justify-self: center;
-  margin-left:20px ;
+  background-color: red;
 }
 
 .article-setting-description {
@@ -37,10 +36,27 @@ body {
 }
 
 .second-part-article {
+  margin-top: 20px;
   display: flex;
+  width: 90%;
   justify-self: center;
+  
 }
 
+.second-element-article {
+  width: 50%;
+  height: 320px;
+  border: 1px solid black;
+  text-align: start;
+}
+
+#elm {
+  margin-right: 20px;
+}
+
+.article-img-second {
+  width: 50%;
+}
 footer {
   display: block;
   padding: 0;
