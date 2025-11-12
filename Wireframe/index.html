@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wireframe</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
   </head>
   <body>
+    <!-------header------->
     <header>
-      <h1>Wireframe</h1>
-      <p>
-        This is the default, provided code and no changes have been made yet.
-      </p>
+    <h1 class="header-title">Basic of Project Development Tools</h1>
+    <p class="header-description">A brief guide to README files, wireframes, and Git branches and their roles in project development.</p>
     </header>
+
+    <!----------Main------->
     <main>
-      <article>
-        <img src="placeholder.svg" alt="" />
-        <h2>Title</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-          voluptates. Quisquam, voluptates.
-        </p>
-        <a href="">Read more</a>
+      <article class="main-article">
+         <img class="article-img" src="placeholder.svg" alt="README file Image" fetchpriority="high">
+         <h3 class="article-title article-setting-description">What is the purpose of a README file?</h3>
+         <p class="article-description article-setting-description">A README file provides an overview of a project, explaining what it does, how to use it, and how to set it up. Its main purpose is to help others understand and use the project quickly.</p>
+         <a href="" class="article-button article-setting-description">Read More</a>
+      </article>
+
+      <article class="second-part-article">
+        <section class="article">
+          <img src="/Wireframe/placeholder.svg" alt="WireFrame example">
+          <h3 class="article-setting-description">What is the purpose of a wireframe?</h3>
+          <p class="article-setting-description">A wireframe is a basic visual guide outlining a webpage or app’s layout and structure, used to plan design and user experience before adding visuals</p>
+          <a href="" class="article-button article-setting-description">Read More</a>
+        </section>
+        <section class="article" id="elm">
+          <img src="/Wireframe/placeholder.svg" alt="Git Branch">
+          <h3 class="article-setting-description">What is a branch in Git?</h1>
+          <p class="article-setting-description">A branch in Git is a separate line of development that allows you to work on changes independently without affecting the main project.</p>       
+          <a href="" class="article-button article-setting-description">Read More</a>
+        </section>
+
+        </section>
       </article>
     </main>
+
+
     <footer>
-      <p>
-        This is the default, provided code and no changes have been made yet.
-      </p>
+      <ul class="footer-list">
+        <li><a class="footer-list-link" href="">Home</a></li>
+        <li><a class="footer-list-link" href="">Contact</a></li>
+        <li><a class="footer-list-link" href="">About Us</a></li>
+      </ul>
     </footer>
+    
   </body>
 </html>
