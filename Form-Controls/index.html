@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My form exercise</title>
-    <meta name="description" content="" />
+    <meta name="description" content="My Form Exercice" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
@@ -13,6 +13,26 @@
     </header>
     <main>
       <form>
+        <label for="name">
+          Full Name: <input type="text" name="name" placeholder="Full Name" id="f_name" minlength="2">
+        </label>
+        <label for="email">
+          Email: <input type="email" name="email" placeholder="Email" id="email">
+        </label>
+        <label for="colour">
+          Colour: <input type="color" name="colour" id="colour_1" value="" required>
+                  <input type="color" name="colour" id="colour_2" value="">
+                  <input type="color" name="colour" id="colour_3" value="">
+        </label>
+        <label for="size">
+           Size <input type="radio" name="size" id="size" required>XS
+                <input type="radio" name="size" id="size">S
+                <input type="radio" name="size" id="size">M
+                <input type="radio" name="size" id="size">L
+                <input type="radio" name="size" id="size">XL
+                <input type="radio" name="size" id="size">XXL
+        </label>
+        <input type="submit">
         <!-- write your html here-->
         <!-- 
           try writing out the requirements first as comments
