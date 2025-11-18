@@ -13,26 +13,40 @@
     </header>
     <main>
       <form>
-        <label for="name">
-          Full Name: <input type="text" name="name" placeholder="Full Name" id="f_name" minlength="2">
-        </label>
-        <label for="email">
-          Email: <input type="email" name="email" placeholder="Email" id="email">
-        </label>
-        <label for="colour">
-          Colour: <input type="color" name="colour" id="colour_1" value="" required>
-                  <input type="color" name="colour" id="colour_2" value="">
-                  <input type="color" name="colour" id="colour_3" value="">
-        </label>
+        <fieldset>
+          <legend>Full name</legend>
+          <label for="name">
+            <input type="name" name="fname" id="fname" minlength="2" required />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Email</legend>
+          <label for="email">
+            <input type="email" name="email" id="email" required />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Choose a color:</legend>
+          <label for="color">
+            <input type="radio" name="color" value="Red" />Red
+          </label>
+          <label for="color">
+            <input type="radio" name="color" value="Green" />Green
+          </label>
+          <label for="color">
+            <input type="radio" name="color" value="Blue" />Blue
+          </label>
+        </fieldset>
         <label for="size">
-           Size <input type="radio" name="size" id="size" required>XS
-                <input type="radio" name="size" id="size">S
-                <input type="radio" name="size" id="size">M
-                <input type="radio" name="size" id="size">L
-                <input type="radio" name="size" id="size">XL
-                <input type="radio" name="size" id="size">XXL
+          Size <input type="radio" name="size" id="size" required />XS
+          <input type="radio" name="size" id="size" />S
+          <input type="radio" name="size" id="size" />M
+          <input type="radio" name="size" id="size" />L
+          <input type="radio" name="size" id="size" />XL
+          <input type="radio" name="size" id="size" />XXL
         </label>
-        <input type="submit">
+        <input type="submit" />
         <!-- write your html here-->
         <!-- 
           try writing out the requirements first as comments
