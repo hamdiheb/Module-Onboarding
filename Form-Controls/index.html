@@ -38,15 +38,20 @@
             <input type="radio" name="color" value="Blue" />Blue
           </label>
         </fieldset>
-        <label for="size">
-          Size <input type="radio" name="size" id="size" required />XS
-          <input type="radio" name="size" id="size" />S
-          <input type="radio" name="size" id="size" />M
-          <input type="radio" name="size" id="size" />L
-          <input type="radio" name="size" id="size" />XL
-          <input type="radio" name="size" id="size" />XXL
-        </label>
-        <input type="submit" />
+        <fieldset>
+          <legend>Select size: </legend>
+          <label for="size">
+            <select name="size" id="size">
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+          </label>
+          <input type="submit" />
+        </fieldset>
         <!-- write your html here-->
         <!-- 
           try writing out the requirements first as comments
